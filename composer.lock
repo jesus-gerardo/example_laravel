@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6bd397601db71a0fea952acc6d8a34bc",
+    "content-hash": "56abc574c9c50fc6e4b7f5ef2a76cd50",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4479,61 +4479,6 @@
             "time": "2020-12-07T20:58:56+00:00"
         },
         {
-            "name": "laravel/ui",
-            "version": "v2.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/ui.git",
-                "reference": "2ccaa3b821ea8ac7e05393b946d0578bdb46099b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/ui/zipball/2ccaa3b821ea8ac7e05393b946d0578bdb46099b",
-                "reference": "2ccaa3b821ea8ac7e05393b946d0578bdb46099b",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/console": "^7.0|^8.0",
-                "illuminate/filesystem": "^7.0|^8.0",
-                "illuminate/support": "^7.0|^8.0",
-                "php": "^7.2.5"
-            },
-            "require-dev": {
-                "mockery/mockery": "^1.0",
-                "phpunit/phpunit": "^8.0|^9.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Laravel\\Ui\\UiServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Laravel\\Ui\\": "src/",
-                    "Illuminate\\Foundation\\Auth\\": "auth-backend/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Taylor Otwell",
-                    "email": "taylor@laravel.com"
-                }
-            ],
-            "description": "Laravel UI utilities and presets.",
-            "keywords": [
-                "laravel",
-                "ui"
-            ],
-            "time": "2020-09-09T12:07:59+00:00"
-        },
-        {
             "name": "mockery/mockery",
             "version": "1.4.2",
             "source": {
@@ -6231,59 +6176,6 @@
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
             "time": "2020-07-12T23:59:07+00:00"
-        },
-        {
-            "name": "zaknesler/tailwind-preset",
-            "version": "v7.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zaknesler/tailwind-preset.git",
-                "reference": "b91d504228293a37b4d921ac3aa59b4a0edd9135"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zaknesler/tailwind-preset/zipball/b91d504228293a37b4d921ac3aa59b4a0edd9135",
-                "reference": "b91d504228293a37b4d921ac3aa59b4a0edd9135",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/console": "^7.0|^8.0",
-                "illuminate/filesystem": "^7.0|^8.0",
-                "illuminate/support": "^7.0|^8.0",
-                "laravel/ui": "^2.2",
-                "php": "^7.2"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "ZakNesler\\TailwindPreset\\TailwindServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "ZakNesler\\TailwindPreset\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Zak Nesler",
-                    "email": "zak@nesler.dev"
-                }
-            ],
-            "description": "A Tailwind CSS preset for Laravel.",
-            "keywords": [
-                "laravel",
-                "preset",
-                "tailwind",
-                "tailwindcss"
-            ],
-            "time": "2020-09-08T17:37:16+00:00"
         }
     ],
     "aliases": [],

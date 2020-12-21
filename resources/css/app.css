@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.img_list{
+    @apply w-full rounded-lg;
+}
