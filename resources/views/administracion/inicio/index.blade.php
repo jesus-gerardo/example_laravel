@@ -1,9 +1,10 @@
-@extends('template.base')
+@extends('administracion.template.base')
 {{-- https://picsum.photos/200/300 --}}
 
-@extends('template.header')
+@extends('administracion.template.header')
 
 {{-- cuerpo del contenido --}}
+
 @section('body')
 
 @endsection
